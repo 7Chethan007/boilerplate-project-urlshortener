@@ -1,16 +1,28 @@
 {
   "name": "shorturl",
-  "version": "0.0.3",
+  "version": "1.0.1",
   "description": "API project for freeCodeCamp",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongodb": "^6.20.0",
+    "nodemon": "^3.1.10"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7Chethan007/boilerplate-project-urlshortener.git"
+  },
+  "author": "Chethan M N",
+  "bugs": {
+    "url": "https://github.com/7Chethan007/boilerplate-project-urlshortener/issues"
+  },
+  "homepage": "https://github.com/7Chethan007/boilerplate-project-urlshortener#readme"
 }
